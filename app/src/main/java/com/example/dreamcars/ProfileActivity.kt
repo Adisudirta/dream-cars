@@ -18,7 +18,7 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(item.itemId == R.id.nav_item_cars){
+        if(item.itemId == R.id.cars_page){
             val moveIntent = Intent(this@ProfileActivity, MainActivity::class.java)
             startActivity(moveIntent)
         }

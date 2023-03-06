@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/detail_car_information"
+    tools:context=".DetailCarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_car_detail_banner"
+            style="@style/Image"
+            android:layout_height="250dp"
+            android:contentDescription="@string/dummy_car_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ferrari_458_spyder" />
+
+        <TextView
+            android:id="@+id/tv_name_car_detail"
+            style="@style/Text.Heading1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/dummy_car_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_car_detail_banner" />
+
+        <TextView
+            android:id="@+id/tv_price_car_detail"
+            style="@style/Text.Heading2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/dummy_car_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name_car_detail" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_price_car_detail">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_80"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="20dp">
+
+                <TextView
+                    android:id="@+id/tv_fuel_car_detail"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/dummy_car_fuel"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:drawableTopCompat="@drawable/baseline_oil_barrel_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_engine_car_detail"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/dummy_car_engine"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:drawableTopCompat="@drawable/baseline_directions_car_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_passengers_car_detail"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/dummy_car_passengers"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:drawableTopCompat="@drawable/baseline_people_alt_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_engine_car_detail"
+                    app:layout_constraintStart_toEndOf="@+id/tv_fuel_car_detail"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_description_title"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/description_title_car_detail"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <TextView
+            android:id="@+id/tv_description_car_detail"
+            style="@style/Text.Paragraph"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/dummy_car_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <Button
+            android:id="@+id/btn_booking_card_car"
+            style="@style/Button"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/button_title_booking"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description_car_detail" />
+
+        <ImageView
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/iv_share_button_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_share_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -3,4 +3,110 @@
     <string name="logo_description">Dream Cars Logo</string>
     <string name="nav_title_cars">Cars</string>
     <string name="nav_title_profile">Profile</string>
+    <string name="dummy_car_name">Porsche Boxster 718</string>
+    <string name="dummy_car_price">IDR 2.100.000 / 3 Hours</string>
+    <string name="button_title_booking">BOOKING</string>
+    <string name="detail_car_information">Detail car information</string>
+    <string name="dummy_car_fuel">Petrol</string>
+    <string name="dummy_car_description">The Ferrari 458 Spider is a high-performance sports car with a retractable hardtop that allows for open-top driving. It is powered by a 4.5-liter V8 engine that produces 562 horsepower and can accelerate from 0 to 60 miles per hour in just 3.4 seconds. The car is known for its sleek and aerodynamic design, advanced technology, and impressive handling and driving dynamics. It is a highly sought-after vehicle among car enthusiasts and is considered a masterpiece of Italian engineering and design.</string>
+    <string name="description_title_car_detail">Description:</string>
+    <string name="dummy_car_engine">Automatic</string>
+    <string name="dummy_car_passengers">2 Passengers</string>
+    <string name="iv_share_button_description">Share Button</string>
+    <string name="profile_name">I Wayan Adi Sudirtayasa</string>
+    <string name="profile_email">yanadisudirta@gmail.com</string>
+    <string name="about_me_title_profile">About Me:</string>
+    <string name="about_me_description_profile">Only a developer who rarely bathes and exercises</string>
+    <string name="profile_image_description">Profile Adi Sudirta</string>
+
+    <string-array name="data_car_photos">
+        <item>@drawable/ferrari_458_spyder</item>
+        <item>@drawable/mercedez_benz_gle_400</item>
+        <item>@drawable/mercedez_benz_slk</item>
+        <item>@drawable/mercedez_benz_s_400</item>
+        <item>@drawable/mini_cooper</item>
+        <item>@drawable/porsche_boxster_718</item>
+        <item>@drawable/rolls_royce_ghost</item>
+        <item>@drawable/toyota_alphard</item>
+        <item>@drawable/toyota_fortuner</item>
+        <item>@drawable/toyota_land_cruiser</item>
+    </string-array>
+
+    <string-array name="data_car_names">
+        <item>Ferrari 458 Spyder</item>
+        <item>Mercedez-Benz GLE 400</item>
+        <item>Mercedez-Benz SLK</item>
+        <item>Mercedez-Benz S400</item>
+        <item>Mini Cooper</item>
+        <item>Porsche Boxster 718</item>
+        <item>Rolls Royce Ghost</item>
+        <item>Toyota Alphard</item>
+        <item>Toyota Fortuner</item>
+        <item>Toyota Land Cruiser</item>
+    </string-array>
+
+    <string-array name="data_car_prices">
+        <item>IDR 2.100.000 / 3 Hours</item>
+        <item>IDR 1.100.000 / 3 Hours</item>
+        <item>IDR 3.100.000 / 3 Hours</item>
+        <item>IDR 2.100.000 / 3 Hours</item>
+        <item>IDR 1.100.000 / 3 Hours</item>
+        <item>IDR 2.100.000 / 3 Hours</item>
+        <item>IDR 4.100.000 / 3 Hours</item>
+        <item>IDR 3.100.000 / 3 Hours</item>
+        <item>IDR 2.500.000 / 3 Hours</item>
+        <item>IDR 2.000.000 / 3 Hours</item>
+    </string-array>
+
+    <string-array name="data_car_fuel">
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Diesel</item>
+    </string-array>
+
+    <string-array name="data_car_engine">
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+        <item>Automatic</item>
+    </string-array>
+    
+    <string-array name="data_car_passengers">
+        <item>2 Passengers</item>
+        <item>4 Passengers</item>
+        <item>2 Passengers</item>
+        <item>4 Passengers</item>
+        <item>2 Passengers</item>
+        <item>2 Passengers</item>
+        <item>6 Passengers</item>
+        <item>8 Passengers</item>
+        <item>8 Passengers</item>
+        <item>8 Passengers</item>
+    </string-array>
+
+    <string-array name="data_car_descriptions">
+        <item>The Ferrari 458 Spider is a high-performance sports car with a retractable hardtop that allows for open-top driving. It is powered by a 4.5-liter V8 engine that produces 562 horsepower and can accelerate from 0 to 60 miles per hour in just 3.4 seconds. The car is known for its sleek and aerodynamic design, advanced technology, and impressive handling and driving dynamics. It is a highly sought-after vehicle among car enthusiasts and is considered a masterpiece of Italian engineering and design.</item>
+        <item>The Mercedes-Benz GLE 400 is a luxury SUV that offers a combination of power, comfort, and style. It is powered by a 3.0-liter V6 engine that produces 329 horsepower and can accelerate from 0 to 60 miles per hour in 5.9 seconds. The car features a spacious and comfortable interior, with high-quality materials and advanced technology, including a large touchscreen display and a premium sound system. The GLE 400 also offers advanced safety features, such as blind-spot monitoring and lane departure warning, making it a top choice for families and luxury car enthusiasts alike.</item>
+        <item>The Mercedes-Benz SLK is a compact luxury roadster that offers a blend of performance, comfort, and style. It is powered by a range of engines, including a turbocharged 2.0-liter four-cylinder engine that produces 241 horsepower and can accelerate from 0 to 60 miles per hour in 5.8 seconds. The car features a retractable hardtop, providing the best of both worlds with open-top driving when desired and a secure and quiet ride when needed. The SLK also offers advanced technology, including a navigation system and a premium sound system, and a well-appointed interior with premium materials and a sporty design. With its impressive performance and luxurious features, the Mercedes-Benz SLK is a popular choice among those seeking a premium driving experience.</item>
+        <item>The Mercedes-Benz S400 is a luxury sedan that offers a combination of power, sophistication, and cutting-edge technology. It is powered by a 3.0-liter V6 engine that produces 362 horsepower and can accelerate from 0 to 60 miles per hour in just 5.2 seconds. The car features a spacious and well-appointed interior, with high-quality materials and advanced technology, including a large touchscreen display, a premium sound system, and an optional rear-seat entertainment system. The S400 also offers advanced safety features, such as a 360-degree camera system and adaptive cruise control, making it a top choice for those seeking both luxury and safety in a vehicle. Overall, the Mercedes-Benz S400 is a top-of-the-line luxury sedan that offers a refined and comfortable driving experience.</item>
+        <item>The Mini Cooper is a compact car that offers a unique combination of style, performance, and versatility. It is available in a range of models, from the classic two-door hatchback to the larger Clubman and Countryman models. The car features a distinctive and playful design, with a compact and agile body that makes it easy to maneuver in tight spaces. The Mini Cooper is also known for its responsive handling and fun-to-drive nature, thanks to its turbocharged engine options and nimble suspension. Inside, the car offers a surprisingly spacious and comfortable interior, with modern technology and customizable options. Overall, the Mini Cooper is a popular choice for those seeking a stylish and fun-to-drive car that stands out on the road.</item>
+        <item>The Porsche Boxster 718 is a high-performance sports car that offers a perfect balance of power, agility, and refinement. It is powered by a turbocharged 2.0-liter four-cylinder engine that produces 300 horsepower and can accelerate from 0 to 60 miles per hour in just 4.9 seconds. The car features a mid-engine layout that provides excellent weight distribution, resulting in sharp handling and precise steering. The Boxster 718 also boasts a sleek and stylish design, with a retractable soft top that provides an open-air driving experience. The interior is well-appointed, with premium materials and advanced technology, including a touchscreen display and a premium sound system. With its exceptional performance and luxurious features, the Porsche Boxster 718 is a top choice for sports car enthusiasts.</item>
+        <item>The Rolls Royce Ghost is a luxury sedan that offers a combination of power, elegance, and sophistication. It is powered by a 6.75-liter V12 engine that produces 563 horsepower and can accelerate from 0 to 60 miles per hour in just 4.8 seconds. The car features a sleek and modern design, with a long and flowing body that exudes luxury and prestige. The Ghost also offers a plush and opulent interior, with premium materials and advanced technology, including a state-of-the-art infotainment system and a customizable ambient lighting system. The car also boasts advanced safety features, such as night vision and adaptive cruise control, making it a top choice for those seeking a luxurious and safe driving experience. Overall, the Rolls Royce Ghost is a true masterpiece of automotive engineering and design, offering unrivaled luxury and comfort.</item>
+        <item>The Toyota Alphard is a luxury minivan that offers a spacious and comfortable ride for families and business travelers. It is powered by a range of engines, including a 3.5-liter V6 engine that produces 296 horsepower and can accelerate from 0 to 60 miles per hour in 7.8 seconds. The car features a refined and modern design, with a large and functional cabin that can accommodate up to eight passengers. The Alphard also offers advanced technology, including a touchscreen infotainment system and a premium sound system. The car is equipped with safety features such as blind-spot monitoring and lane departure warning, making it a top choice for those seeking a safe and reliable family vehicle. Overall, the Toyota Alphard is a spacious and luxurious minivan that offers a comfortable and practical driving experience.</item>
+        <item>The Toyota Fortuner is a mid-size SUV that offers a rugged and capable driving experience, both on and off the road. It is powered by a range of engines, including a 2.8-liter turbocharged diesel engine that produces 174 horsepower and can tow up to 6,500 pounds. The car features a robust and stylish design, with a large and functional cabin that can comfortably seat up to seven passengers. The Fortuner also offers advanced technology, including a touchscreen infotainment system and a premium sound system. The car is equipped with safety features such as anti-lock brakes and a rearview camera, making it a top choice for those seeking a safe and reliable SUV. Overall, the Toyota Fortuner is a versatile and capable SUV that offers a comfortable and practical driving experience.</item>
+        <item>The Toyota Land Cruiser is a full-size SUV that offers a combination of power, ruggedness, and luxury. It is powered by a 5.7-liter V8 engine that produces 381 horsepower and can tow up to 8,100 pounds. The car features a robust and muscular design, with a spacious and luxurious cabin that can accommodate up to eight passengers. The Land Cruiser also offers advanced technology, including a touchscreen infotainment system, a premium sound system, and a rear-seat entertainment system. The car is equipped with safety features such as blind-spot monitoring and adaptive cruise control, making it a top choice for those seeking a safe and reliable SUV. Additionally, the Land Cruiser is renowned for its off-road capabilities, thanks to its advanced four-wheel-drive system and durable construction. Overall, the Toyota Land Cruiser is a versatile and powerful SUV that offers a comfortable and practical driving experience.</item>
+    </string-array>
 </resources>
