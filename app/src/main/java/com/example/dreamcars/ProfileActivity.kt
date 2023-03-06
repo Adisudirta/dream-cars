@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 
-class MainActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_profile)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(item.itemId == R.id.nav_item_profile){
-            val moveIntent = Intent(this@MainActivity, ProfileActivity::class.java)
+        if(item.itemId == R.id.nav_item_cars){
+            val moveIntent = Intent(this@ProfileActivity, MainActivity::class.java)
             startActivity(moveIntent)
         }
 
