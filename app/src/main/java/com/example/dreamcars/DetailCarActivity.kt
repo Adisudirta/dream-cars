@@ -5,6 +5,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Toast
 import com.example.dreamcars.databinding.ActivityDetailCarBinding
 
 class DetailCarActivity : AppCompatActivity() {
@@ -12,6 +13,10 @@ class DetailCarActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_CAR = "extra_car"
+    }
+
+    private fun showNotification(message: String){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +40,11 @@ class DetailCarActivity : AppCompatActivity() {
             shareIntent.type = "text/plain"
             shareIntent.putExtra(Intent.EXTRA_TEXT, "Come on, book a ${carInformation?.name} now on the DreamCars platform")
             startActivity(shareIntent)
+        }
+
+        binding.btnBookingCardCar.setOnClickListener {
+            showNotification("Booking sedang diproses....")
+            showNotification("Booking terkirim!")
         }
 
         carInformation?.let {

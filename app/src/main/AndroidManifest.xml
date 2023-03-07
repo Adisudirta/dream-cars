@@ -13,7 +13,8 @@
         tools:targetApi="31">
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,15 +24,19 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="List Cars" />
+            android:label="List Cars"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".DetailCarActivity"
             android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ProfileActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false"
-            android:label="Profile" />
+            android:label="Profile"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
